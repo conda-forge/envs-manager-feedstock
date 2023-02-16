@@ -1,5 +1,5 @@
 {% set name = "envs-manager" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/envs_manager-{{ version }}.tar.gz
-  sha256: 029679a8e2bcf0df451e3a62cba73a4b4d1c7aac14776d234be6690731cc99b5
+  sha256: 55677df9e73b6e3730e00f3e231b52eb3917bfed6f6b65682de86a0060fb0357
 
 build:
   noarch: python
